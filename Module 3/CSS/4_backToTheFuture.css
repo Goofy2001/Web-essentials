@@ -1,0 +1,32 @@
+header {
+    background: black url("../WC3 - oefenbestanden/images/bttf-header.jpg") no-repeat top center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5rem 6rem;
+    margin: auto auto 2em auto;
+}
+
+h1 {
+    font-size: 3;
+}
+
+.movie-row {
+    display: flex;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+img {
+    width: 300px;
+    padding: 1em;
+}
+
+.movie-date {
+    text-align: right;
+    color: green;
+}
