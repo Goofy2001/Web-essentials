@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternating table</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: left;
+        }
+        h1 {
+            text-align: center;
+        }
+        caption {
+            caption-side: bottom;
+            text-transform: uppercase;
+            font-size: 0.7em;
+            padding: 10px;
+        }
+        table {
+            margin: auto;
+            width: 95%;
+            border-collapse: collapse;
+        }
+        
+        td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        th {
+            padding: 10px;
+            border: 1px solid white;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        tr:nth-child(odd) {
+            background-color: whitesmoke;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabellen en CSS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tom</td>
+                <td>Aertssens</td>
+                <td>Web Essentials</td>
+            </tr>
+            <tr>
+                <td>Geert</td>
+                <td>Coulommier</td>
+                <td>IT Essentials</td>
+            </tr>
+            <tr>
+                <td>Ruben</td>
+                <td>Dejonckheere</td>
+                <td>Programming Essentials</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>Derycke</td>
+                <td>Web Advanced</td>
+            </tr>
+            <tr>
+                <td>Wim</td>
+                <td>Hambroeck</td>
+                <td>Data Essentials</td>
+            </tr>
+            <tr>
+                <td>Steve</td>
+                <td>Weemaels</td>
+                <td>Business IT</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <caption>Toegepaste informatica</caption>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+

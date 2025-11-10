@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film toevoegen</title>
+</head>
+<body>
+    <h1>Film toevoegen</h1>
+    <form action="https://www.w3schools.com/action_page.php">
+        <label for="titel">Film Titel:</label>
+        <input type="text" id="titel" name="titel" required>
+        <label for="director">Regisseur: </label>
+        <input type="text" id="director" name="regisseur" required>
+        <label for="jaarVanUitgave">Jaar van uitgave: </label>
+        <input type="text" id="jaarVanUitgave" name="jaar van uitgave" required>
+        <label for="genre">Genre: </label>
+        <select name="genre" id="genre">
+            <option value="" selected>Kies een genre</option>
+            <option value="actie">Actie</option>
+            <option value="drama">Drama</option>
+            <option value="komedie">Komedie</option>
+        </select>
+        <label for="beschrijving">Beschrijving (plot)</label>
+        <textarea name="Beschrijving" id="beschrijving"></textarea>
+        <fieldset>
+            <legend>Beoordeling</legend>
+            <input type="radio" name="beoordeling" value="1" id="beoordeling1">
+            <label for="beoordeling1">1</label>
+            <input type="radio" name="beoordeling" value="2" id="beoordeling2">
+            <label for="beoordeling2">2</label>
+            <input type="radio" name="beoordeling" value="3" id="beoordeling3">
+            <label for="beoordeling3">3</label>
+            <input type="radio" name="beoordeling" value="4" id="beoordeling4">
+            <label for="beoordeling4">4</label>
+            <input type="radio" name="beoordeling" value="5" id="beoordeling5">
+            <label for="beoordeling5">5</label>
+        </fieldset>
+        <input type="submit" value="Opslaan">
+        <input type="hidden" name="verborgenveld" value="Het werkt">
+    </form>
+</body>
+</html>
