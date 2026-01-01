@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        .tooltip-container {
+            border-bottom: 1px dotted gray;
+            display: inline-block;
+            position: relative;
+        }
+
+        .tooltip {
+            background-color: blue;
+            color: white;
+            display: none;
+            border-radius: 100px;
+            padding: 1rem;
+            position: absolute;
+            width: max-content;
+            max-width: 300px;
+            left: 30%;
+        }
+
+        .tooltip-container:hover .tooltip1 {
+            display: block;
+        }
+    </style>
+</head>
+<header>
+
+</header>
+<body>
+    <span class="tooltip-container">
+        Hover over mij
+        <span class="tooltip tooltip1">Dit is een <i>tooltip</i></span>
+    </span>
+</body>
+</html>
