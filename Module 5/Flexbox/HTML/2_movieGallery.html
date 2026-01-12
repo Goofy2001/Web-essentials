@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-gallery</title>
+    <style>
+        .movie-image {
+            position: relative;
+            width: 389px;
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        .image-overlay {
+            position: absolute;
+            max-width: 100%;
+            background: linear-gradient(45deg, gold, transparent);
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }   
+        ul {
+            list-style: none;
+            display: flex;
+            max-width: 1200px;
+            padding: 1rem;
+            background-color: #efefef; /* check */
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        li {
+            margin: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Gallery</h1>
+    </header>
+    <ul>
+        <li class="movie-image">
+            <img src="/Oefenbestanden/WC5 - oefenbestanden/images/movie_1.jpg" alt="Movie_1">
+            <div class="image-overlay"></div>
+        </li>
+        <li class="movie-image">
+            <img src="/Oefenbestanden/WC5 - oefenbestanden/images/movie_2.jpg" alt="Movie_2">
+            <div class="image-overlay"></div>
+        </li>
+        <li class="movie-image">
+            <img src="/Oefenbestanden/WC5 - oefenbestanden/images/movie_3.jpg" alt="Movie_3">
+            <div class="image-overlay"></div>
+        </li>
+        <li class="movie-image">
+            <img src="/Oefenbestanden/WC5 - oefenbestanden/images/movie_4.jpg" alt="Movie_4">
+            <div class="image-overlay"></div>
+        </li>
+        <li class="movie-image">
+            <img src="/Oefenbestanden/WC5 - oefenbestanden/images/movie_5.jpg" alt="Movie_5">
+            <div class="image-overlay"></div>
+        </li>
+        <li class="movie-image">
+            <img src="/Oefenbestanden/WC5 - oefenbestanden/images/movie_6.jpg" alt="Movie_6">
+            <div class="image-overlay"></div>
+        </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-navigatie</title>
+    <style>
+        .horizontal {
+            background-color: black;
+        }
+
+        .horizontal ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 5;
+        }
+
+        .horizontal a {
+            display: block;
+            background: black;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 1em;
+            border-right: 1px solid white;
+            transition: background-color 0.5s;
+        }
+
+        .horizontal a:hover {
+            background: lightgrey;
+            color: black
+        }
+
+        .horizontal2 {
+            background-color: black;
+        }
+
+        .horizontal2 ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0;
+            margin: 5;
+        }
+
+        .horizontal2 a {
+            display: block;
+            background: black;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 1em;
+            border-left: 1px solid white;
+            transition: background-color 0.5s;
+        }
+
+        .horizontal2 a:hover {
+            background: lightgrey;
+            color: black
+        }
+
+        .home-alone {
+            background-color: black;
+        }
+
+        .home-alone ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 5;
+        }
+
+        .home-alone li:first-child {
+            margin-right: auto;
+            border-right: 1px solid white;
+        }
+
+        .home-alone a {
+            display: block;
+            background: black;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 1em;
+            border-left: 1px solid white;
+            transition: background-color 0.5s;
+        }
+
+        .home-alone a:hover {
+            background: lightgrey;
+            color: black
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="horizontal">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Discuss</a></li>
+        </ul>
+    </nav>
+    <nav class="horizontal2">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Discuss</a></li>
+        </ul>
+    </nav>
+    <nav class="home-alone">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Discuss</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
