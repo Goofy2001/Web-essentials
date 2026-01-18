@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive HTML Elements Example</title>
+    <style>
+        * {
+            border: black solid 1px;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Comprehensive HTML Elements Example</h1>
+        <p>This document demonstrates HTML elements with comments explaining their purpose.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#text-elements">Text Elements</a></li>
+            <li><a href="#semantic-elements">Semantic Elements</a></li>
+            <li><a href="#form-elements">Form Elements</a></li>
+            <li><a href="#media-elements">Media Elements</a></li>
+            <li><a href="#table-elements">Table Elements</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="text-elements">
+            <h2>Text Formatting Elements</h2>
+            
+            <p>The &lt;a&gt; element defines a hyperlink: <a href="#top">anchor link</a></p>
+            
+            <p>The &lt;abbr&gt; element represents an abbreviation: <abbr title="World Health Organization">WHO</abbr></p>
+            
+            <p>The &lt;address&gt; element defines contact information:</p>
+            <address>
+                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                Visit us at:<br>
+                Example.com<br>
+                Box 564, Disneyland<br>
+                USA
+            </address>
+            
+            <p>The &lt;b&gt; element specifies bold text: This is <b>bold text</b>.</p>
+            
+            <p>The &lt;bdo&gt; element overrides text direction: <bdo dir="rtl">Right to left text</bdo></p>
+            
+            <p>The &lt;blockquote&gt; element defines a quoted section:</p>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature.
+            </blockquote>
+            
+            <p>The &lt;br&gt; element inserts a line break: Line 1<br>Line 2</p>
+            
+            <p>The &lt;cite&gt; element defines a work title: <cite>The Scream</cite> by Edward Munch</p>
+            
+            <p>The &lt;code&gt; element defines computer code: HTML <code>button</code> tag</p>
+            
+            <p>The &lt;del&gt; and &lt;ins&gt; elements: My favorite color is <del>blue</del> <ins>red</ins>!</p>
+            
+            <p>The &lt;dfn&gt; element specifies a term: <dfn>HTML</dfn> is the standard markup language</p>
+            
+            <p>The &lt;em&gt; element defines emphasized text: We <em>must</em> finish this</p>
+            
+            <p>The &lt;i&gt; element defines alternate voice: <i>Lorem ipsum</i> is popular</p>
+            
+            <p>The &lt;kbd&gt; element defines keyboard input: Press <kbd>Ctrl</kbd> + <kbd>C</kbd></p>
+            
+            <p>The &lt;mark&gt; element defines highlighted text: Buy <mark>milk</mark> today</p>
+            
+            <p>The &lt;pre&gt; element defines preformatted text:</p>
+            <pre>
+Text in a pre element
+preserves spaces and
+line breaks
+            </pre>
+            
+            <p>The &lt;q&gt; element defines a short quotation: <q>Build a future</q></p>
+            
+            <p>The &lt;ruby&gt;, &lt;rt&gt;, &lt;rp&gt; elements for ruby annotations:</p>
+            <ruby>
+                漢 <rp>(</rp><rt>kan</rt><rp>)</rp>
+            </ruby>
+            
+            <p>The &lt;s&gt; element defines incorrect text: <s>Only 50 tickets left!</s></p>
+            
+            <p>The &lt;samp&gt; element defines sample output: Returns <samp>Error!</samp></p>
+            
+            <p>The &lt;small&gt; element defines smaller text: Normal <small>Smaller</small></p>
+            
+            <p>The &lt;span&gt; element is an inline container: <span style="color:blue">blue</span> eyes</p>
+            
+            <p>The &lt;strong&gt; element defines important text: <strong>Important!</strong></p>
+            
+            <p>The &lt;sub&gt; element defines subscript: H<sub>2</sub>O</p>
+            
+            <p>The &lt;sup&gt; element defines superscript: This has <sup>superscript</sup></p>
+            
+            <p>The &lt;time&gt; element defines a specific time: Open at <time>10:00</time></p>
+            
+            <p>The &lt;u&gt; element defines stylistically different text: <u>mispelled</u> word</p>
+            
+            <p>The &lt;var&gt; element defines a variable: <var>l</var> × <var>w</var> × <var>h</var></p>
+        </section>
+        
+        <section id="semantic-elements">
+            <h2>Semantic and Structural Elements</h2>
+            
+            <p>The &lt;article&gt; element specifies independent content:</p>
+            <article>
+                <h3>What Does WWF Do?</h3>
+                <p>WWF's mission is to stop degradation of our planet's environment.</p>
+            </article>
+            
+            <p>The &lt;aside&gt; element defines aside content:</p>
+            <aside>
+                <h4>Epcot Center</h4>
+                <p>Epcot is a theme park at Walt Disney World.</p>
+            </aside>
+            
+            <p>The &lt;details&gt; and &lt;summary&gt; elements:</p>
+            <details>
+                <summary>Copyright 1999-2024.</summary>
+                <p>All Rights Reserved.</p>
+            </details>
+            
+            <p>The &lt;dialog&gt; element defines a dialog box:</p>
+            <dialog id="myDialog">
+                <p>This is a dialog box!</p>
+                <button onclick="document.getElementById('myDialog').close()">Close</button>
+            </dialog>
+            <button onclick="document.getElementById('myDialog').show()">Open Dialog</button>
+            
+            <p>The &lt;div&gt; element defines a division:</p>
+            <div>
+                <h4>Div Element</h4>
+                <p>Content inside a div element.</p>
+            </div>
+            
+            <p>The &lt;footer&gt; element defines a footer:</p>
+            <footer>
+                <p>Author: John Doe</p>
+            </footer>
+            
+            <p>The &lt;header&gt; element represents introductory content:</p>
+            <header>
+                <h4>Header Section</h4>
+                <p>Introductory content</p>
+            </header>
+            
+            <p>The &lt;hgroup&gt; element groups headings:</p>
+            <hgroup>
+                <h3>Main Title</h3>
+                <h4>Subtitle</h4>
+            </hgroup>
+            
+            <p>The &lt;hr&gt; element defines a thematic break:</p>
+            <p>Above horizontal rule</p>
+            <hr>
+            <p>Below horizontal rule</p>
+            
+            <p>The &lt;main&gt; element specifies main content:</p>
+            <main>
+                <p>Main content area.</p>
+            </main>
+            
+            <p>The &lt;nav&gt; element defines navigation:</p>
+            <nav>
+                <a href="/html/">HTML</a> |
+                <a href="/css/">CSS</a>
+            </nav>
+            
+            <p>The &lt;section&gt; element defines a section:</p>
+            <section>
+                <h4>Section Title</h4>
+                <p>Content inside a section.</p>
+            </section>
+        </section>
+        
+        <section id="form-elements">
+            <h2>Form and Input Elements</h2>
+            
+            <p>The &lt;form&gt; element:</p>
+            <form action="/action_page.php" method="get">
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+            
+            <p>The &lt;datalist&gt; element:</p>
+            <label for="browser">Choose browser:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+            </datalist>
+            
+            <p>The &lt;select&gt;, &lt;optgroup&gt;, &lt;option&gt; elements:</p>
+            <label for="cars">Choose car:</label>
+            <select id="cars" name="cars">
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                </optgroup>
+            </select>
+            
+            <p>The &lt;output&gt; element:</p>
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" id="a" value="50"> +
+                <input type="number" id="b" value="25"> =
+                <output name="x" for="a b"></output>
+            </form>
+            
+            <p>The &lt;progress&gt; element:</p>
+            <label for="file">Download progress:</label>
+            <progress id="file" value="32" max="100">32%</progress>
+            
+            <p>The &lt;meter&gt; element:</p>
+            <label for="disk_c">Disk usage:</label>
+            <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter>
+        </section>
+        
+        <section id="media-elements">
+            <h2>Media Elements</h2>
+            
+            <p>The &lt;audio&gt; element:</p>
+            <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                Your browser does not support audio.
+            </audio>
+            
+            <p>The &lt;video&gt; element:</p>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+            
+            <p>The &lt;canvas&gt; element:</p>
+            <canvas id="myCanvas" width="200" height="100"></canvas>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#FF0000";
+                ctx.fillRect(20, 20, 75, 50);
+            </script>
+            
+            <p>The &lt;embed&gt; element:</p>
+            <embed type="text/html" src="snippet.html" width="500" height="200">
+            
+            <p>The &lt;iframe&gt; element:</p>
+            <iframe src="https://www.example.com" title="Example iframe" width="400" height="200"></iframe>
+            
+            <p>The &lt;img&gt; element:</p>
+            <img src="https://via.placeholder.com/150" alt="Placeholder" width="150" height="150">
+            
+            <p>The &lt;map&gt; and &lt;area&gt; elements:</p>
+            <img src="https://via.placeholder.com/300x100" alt="Workplace" usemap="#workmap" width="300" height="100">
+            <map name="workmap">
+                <area shape="rect" coords="0,0,150,100" alt="Computer" href="computer.html">
+                <area shape="rect" coords="150,0,300,100" alt="Phone" href="phone.html">
+            </map>
+            
+            <p>The &lt;object&gt; element:</p>
+            <object data="snippet.html" width="400" height="200"></object>
+            
+            <p>The &lt;param&gt; element:</p>
+            <object data="horse.wav">
+                <param name="autoplay" value="true">
+            </object>
+        </section>
+        
+        <section id="table-elements">
+            <h2>Table Elements</h2>
+            
+            <p>The &lt;table&gt; element:</p>
+            <table>
+                <caption>Monthly Savings</caption>
+                <colgroup>
+                    <col span="2">
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Savings</th>
+                        <th>Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>$80</td>
+                        <td>$180</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>$180</td>
+                        <td>$180</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        
+        <section id="list-elements">
+            <h2>List Elements</h2>
+            
+            <p>The &lt;ul&gt; and &lt;li&gt; elements:</p>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+            
+            <p>The &lt;ol&gt; element:</p>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            
+            <p>The &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt; elements:</p>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>
+            
+            <p>The &lt;menu&gt; element:</p>
+            <menu>
+                <li><button>New</button></li>
+                <li><button>Open</button></li>
+            </menu>
+        </section>
+    </main>
+    
+    <footer>
+        <p>HTML elements demonstration with borders showing element boundaries.</p>
+    </footer>
+</body>
+</html>

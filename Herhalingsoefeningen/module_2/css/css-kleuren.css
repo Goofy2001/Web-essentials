@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    text-transform: capitalize;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+body {
+    background-color: rgb(255,99,71)
+}
+
+.navigatie {
+    background-color: #ffd602;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    color: #dadcde;
+    text-decoration: none;
+}
+
+a:not(.navigatie a):hover {
+    text-decoration: underline;
+} 
+
+.navigatie a {
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+p {
+    line-height: 2em;
+}
+
+blockquote>p {
+    background-color: #dadcde;
+    color: rgb(255,99,71);
+}
+
+
+
+div {
+    background-color: black;
+    color: #ffd602;
+}
+
+div>h2 {
+    color: white;
+}
+
+li {
+    line-height: 1.5em;
+}
