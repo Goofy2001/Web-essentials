@@ -1,0 +1,24 @@
+p {
+    line-height: 1.5em;
+}
+
+h2 {
+    clear: both;
+}
+
+.textFigure {
+    display:inline;
+    width: 200px;
+
+}
+
+#desertBottom {
+    float: inline-start;
+    margin: 0 1em 1em 0;
+}
+
+#forestBottom {
+    float: inline-end;
+    margin: 0 0 1em 1em;
+}
+

@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+blockquote {
+    border: 5px solid white;
+    padding: 2rem;
+    margin: 3rem;
+    background-color: #143843;
+    width: 50%;
+    font-size: 2rem;
+}
+
+#centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#right {
+    margin-left: auto;
+}
