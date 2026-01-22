@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background-color: black;
+    color: white;
+}
+
+li:hover {
+    background-color: antiquewhite;
+}
+
+li:hover a {
+    color: black;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}

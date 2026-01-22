@@ -1,0 +1,11 @@
+table {border-collapse: collapse;}
+
+th, td {border: 1px solid grey; text-align: center; padding: 1em;}
+
+caption {caption-side: bottom; margin-top: 1em;}
+
+td:not(:first-child) {
+    background-color: darkcyan;
+    color: white;
+
+} 

@@ -1,0 +1,29 @@
+nav,body {padding: 0;margin: 0;}
+
+ul {
+    display:flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+li {border-left: white solid 1px;}
+
+a { padding: 1em; 
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+li:hover a {
+    background-color: whitesmoke;
+    color: black;
+}
+
+li:first-child {
+    margin-right: auto;
+    border-right: white solid;
+}

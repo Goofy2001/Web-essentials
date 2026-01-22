@@ -1,0 +1,21 @@
+.tooltip-container {
+    position: relative;
+    border-bottom: grey dotted 1px;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 1em;
+    left: 30px;
+    width: max-content;
+    border: blue solid 1px;
+    padding: 0.75em;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+}
+
+.tooltip-container:hover .tooltip {
+    display: block;}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigatie met achtergrond iconen</title>
+    <style>
+
+
+
+        li {border: 1px solid black;
+        border-top: none;}
+        
+        li:first-child {
+            border-top: solid 1px black;
+        }
+
+
+
+        ul {
+            width: 14rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: orange;
+        }
+
+        li:hover {
+            background-color: black;
+        }
+
+        li:hover>a {
+            color: white;
+        }
+
+        a {
+            padding: 2em 2em 2em 6em;
+            text-decoration: none;
+            color: black;
+            display: block
+        }
+
+        li {
+            background-size: 2em 2em;
+            background-repeat: no-repeat;
+            background-position: 2em center;
+        }
+
+        li#home {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/home.png");}
+        li#home:hover {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/home_over.png");}
+
+        li#blog {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/blog.png");}
+        li#blog:hover {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/blog_over.png");}
+
+        li#learn {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/learn.png");}
+        li#learn:hover {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/learn_over.png");}
+
+        li#discuss {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/discuss.png");}
+        li#discuss:hover {background-image: url("../../../Oefenbestanden/WC3\ -\ oefenbestanden/icons/discuss_over.png");}
+
+    </style>
+</head>
+<body>
+    
+        <ul>
+            <li id="home"><a href="#">Home</a></li>
+            <li id="blog"><a  href="#">blog</a></li>
+            <li id="learn"><a href="#">learning</a></li>
+            <li id="discuss"><a  href="#">discuss</a></li>
+        </ul>
+    
+</body>
+</html>

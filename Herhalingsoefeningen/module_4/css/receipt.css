@@ -1,0 +1,43 @@
+* {
+    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+}
+
+div {
+    background-color: salmon;
+    padding: 1em;
+}
+
+table {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    border-collapse: collapse;
+    margin: 2em auto;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.2);;
+}
+
+thead {
+    border-bottom: gray 1px dashed;
+    text-transform: uppercase;
+}
+
+tfoot {
+    border-top: gray 1px dashed;
+    color: green;
+    text-align: right;
+}
+
+th, td {
+    padding: 0.5rem 3em;
+}
+
+th {
+    text-align: left;
+}
+
+td:not(:first-child) {
+    text-align: right;
+}
+

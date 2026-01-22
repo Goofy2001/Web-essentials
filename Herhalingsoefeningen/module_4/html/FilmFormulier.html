@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filmFormulier</title>
+</head>
+<body>
+    <header>
+        <h1>Film toevoegen</h1>
+    </header>
+    <main>
+        <form action="https://www.w3schools.com/action_page.php">
+            <label for="titel">Film titel:</label>
+            <input type="text" id="titel" name="title" required>
+
+            <label for="regisseur">Regisseur:</label>
+            <input type="text" id="regisseur" name="director" required>
+
+            <label for="jaar">Jaar van uitgave:</label>
+            <input type="text" id="jaar" name="year" required>
+
+            <label for="genre">Genre:</label>
+            <select name="genre" id="TypeFilm" multiple required size="5">
+                <option value="komedie">Komedie</option>
+                <option value="drama">Drama</option>
+                <option value="science-fiction">Science-fiction</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="horror">horror</option>
+            </select>
+
+            <label for="plot">Beschrijving (plot):</label>
+            <textarea name="beschrijving" id="plot" rows="10" placeholder="test"></textarea>
+
+            <fieldset>
+                <legend>Beoordeling</legend>
+                <label><input type="radio" name="rating" value="1">1</label>
+                <label><input type="radio" name="rating" value="2">2</label>
+                <label><input type="radio" name="rating" value="3">3</label>
+                <label><input type="radio" name="rating" value="4">4</label>
+                <label><input type="radio" name="rating" value="5">5</label>
+            </fieldset>
+
+            <input hidden name="verborgenVeld" value="Het werkt">
+
+            <button type="submit">Uploaden</button>
+        </form>
+    </main>
+</body>
+</html>

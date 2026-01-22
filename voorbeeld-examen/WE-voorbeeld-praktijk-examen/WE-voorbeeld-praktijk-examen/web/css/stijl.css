@@ -1,0 +1,158 @@
+/*
+KLEUREN: 
+grijs : #aaaaaa   ->kleur van navigatielinks
+rood  : #f0141e
+
+wit   : #ffffff ->kleur van navigatielink met muisover
+zwart : #000000
+
+
+/* TYPOGRAFIE
+lettertype : Arial
+basisgrootte: 15 pixels
+*/
+
+/* BASIS CSS HIER (body, paragrafen, titels, ...) */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+h1, h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #f0141e;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 4rem;
+  margin: 1em 0.5em; 
+  display: block;
+}
+
+p {
+  margin: 1em 0;
+}
+/* HEADER & NAVIGATIE */
+
+header {
+  background-color: black;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  
+}
+
+
+nav>ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav>a {
+  margin: auto;
+  width: 50%;
+}
+
+nav>a>img {
+  width: 100%;
+  display: block;
+}
+
+li>a {
+  color: white;
+  display: block;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 2em 0;
+
+}
+
+li>a:hover {
+  color: #f0141e;
+}
+
+/* INHOUD: FILMS */
+
+/*
+De rand rond de eerste film is 10 pixels
+De witruimte rond de 'movie-text' is
+  boven en onder: 1em
+  links en rechts : 2em
+*/
+
+main>article {
+  display: flex;
+  flex-direction: column;
+}
+
+main>article>a>img {
+  width: 100%;
+}
+
+article>div {
+  margin: 1em 2em;
+}
+
+article:hover {
+  border: #f0141e solid 10px;
+}
+
+article image {
+  opacity: 0.00;
+}
+
+article:hover image {
+  opacity: 1
+}
+
+footer {
+  background-color: black;
+  padding: 2em;
+}
+
+footer>p {
+  color: white;
+  text-align: center;
+}
+
+/* ################################## */
+/* Mediaquery voor schermen vanaf 1024 pixels*/
+/* ################################## */
+
+@media screen and (min-width:1024px) {
+  
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+article.movie-block2 {
+  max-width: 50%;
+}
+
+article.movie-block3 {
+  max-width: calc(100%/3);
+}
+
+article:hover {
+  background-color: #f0141e;
+}
+}

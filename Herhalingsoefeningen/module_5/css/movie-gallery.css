@@ -1,0 +1,61 @@
+body, nav {
+    padding: 0;
+    margin: 0;
+}
+
+* {box-sizing: border-box;}
+
+.movie-gallery {
+    max-width: 1200px;
+    background-color: #efefef;
+    padding: 1rem;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+li {
+    margin: 0; padding: 0;
+    width: 33%;
+}
+
+.movie-image {
+    flex: 1 1 378.666px;
+    position: relative;    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.image-overlay {
+    background-image: linear-gradient(to right, yellow, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+a {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+a:hover {
+    background-color: orange;
+}
