@@ -1,0 +1,185 @@
+/*
+
+Info over de stijl
+Zie ook screenshots: 
+desktop.png en mobile.png
+De desktop screenshot is gemaakt op schermbreedte 1480 pixels
+
+Desktop:
+Bij evaluatie wordt in de eerste plaats gelet op desktop layout.
+
+Mobiel:
+Je kan 2 punten van 20 verdienen met
+een werkende mobiele layout
+
+## Kleuren
+  tekstkleur: zwart
+  donkerblauw: #2c3e50;
+  lichtblauw: #3498db;
+  lichtgrijzig: #ecf0f1;
+
+## Lettertype: "Lucida Sans"
+
+## Layout
+
+  Witruimte, breedte en hoogte, tekstgrootte, ...
+  mag je inschatten op basis van de screenshot.
+
+*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  header {
+    background-color: #2c3e50;
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+
+  }
+
+  h1 {
+    text-align: center;
+    background-color: #ecf0f1;
+    display: block;
+    padding: 2em;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 2em;
+  }
+
+  div#tabelSprekers {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+
+  }
+
+  div#tabelSprekers>div {
+    border: solid #ecf0f1 2px;
+    width: 33%;
+    padding: 1em 1em 0 1em;
+  }
+
+  div>img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  figcaption {
+    font-weight: bold;
+    text-align: center;
+    margin: 1em;
+  }
+
+  blockquote {
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 0;
+  }
+
+  article {
+    background-color: #ecf0f1;
+    padding: 2em;
+    margin: 1em 0;
+  }
+
+  article p {
+    text-align: center;
+    margin: 0 25%;
+  }
+
+  article h2 {
+    margin: 1.5em auto 1em auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+
+  form h2 {
+    margin: 1em;
+    align-self: flex-start;
+    margin: 1em 0em;
+  }
+
+  form input {
+    display: block;
+    width: 100%;
+    margin: 3px 0;
+    border-radius: 5px;
+    border: gray 1px solid;
+    height: 3em;
+  }
+
+  form button {
+    color: white;
+    background-color: #3498db;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+  }
+
+  form blockquote {
+    color: green;
+    margin: 1em 0;
+    align-self: flex-start;
+    padding: 0;
+  }
+
+  footer {
+    background-color: #2c3e50;
+    margin-top: 3em;
+    padding: 2em;
+  }
+
+  footer p {
+    color: white;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+
+  div#tabelSprekers {
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 1em;
+  }
+
+    div#tabelSprekers>div {
+    border: solid #ecf0f1 2px;
+    width: 100%;
+  }
+
+  div img {
+    width: 100%;
+  }  
+
+  article p {
+    text-align: center;
+    margin: 0 10%;
+  }
+}
